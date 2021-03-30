@@ -1,0 +1,115 @@
+/* body -------------------------------------- */
+
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+hr {
+  width: 50rem;
+  border: none;
+  border-top: 5px dotted red;
+}
+
+main {
+  width: 50rem;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  text-align: justify;
+}
+
+/* code {
+  font-size: 0.9rem;
+} */
+
+footer {
+  margin: 4rem 0;
+}
+
+footer p {
+  text-align: center;
+}
+
+/* container class -------------------------- */
+
+.container1 {
+  border: 10px solid rgb(255, 0, 234);
+}
+
+.container1,
+.container2 {
+  width: 50rem;
+  height: 50rem;
+}
+
+/* square class ------------------------------ */
+
+.square1,
+.square2,
+.empty,
+.red1 {
+  width: 25%;
+  height: 25%;
+}
+
+.red1,
+.red2,
+.red3 {
+  background-color: red;
+  border: 5px solid red;
+}
+
+.square1 {
+  background-color: greenyellow;
+}
+
+.square2 {
+  background-color: rgb(238, 255, 0);
+  border: 5px solid rgb(255, 154, 154);
+}
+
+.red2 {
+  width: 50%;
+  height: 25%;
+}
+
+.red3 {
+  width: 75%;
+  height: 25%;
+}
+
+[class^="square1"]:nth-child(2n) {
+  border: 5px solid gray;
+}
+
+/* margin class----------------------------- */
+
+.margin1 {
+  margin-left: 75%;
+}
+
+.margin2 {
+  margin-left: 50%;
+}
+
+.margin3 {
+  margin-left: 25%;
+}
+
+.floatleft {
+  float: left;
+}
+
+.floatright {
+  float: right;
+}
